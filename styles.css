@@ -3,15 +3,17 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
 }
 
 header {
-  background: #3d9970; /* Kikuyu Green */
+  background: #333;
   color: #fff;
-  padding: 1rem;
+  padding: 10px 0;
   text-align: center;
+}
+
+header h1 {
+  margin: 0;
 }
 
 nav ul {
@@ -21,66 +23,67 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 1rem;
+  margin: 0 10px;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
 }
 
-main {
-  padding: 1rem;
+section {
+  padding: 20px;
 }
 
-.lesson {
-  background: #fff;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.pricing {
+.gallery {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
-.pricing-plan {
-  background: #fff;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
-  text-align: center;
-  width: 280px;
+.gallery-item {
+  flex: 1;
+  max-width: 23%;
 }
 
-.pricing-plan h3 {
-  margin: 0.5rem 0;
+.gallery-item img {
+  width: 100%;
+  height: auto;
 }
 
-button {
-  background: #3d9970; /* Kikuyu Green */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #333;
   color: #fff;
   border: none;
-  padding: 0.5rem 1rem;
   cursor: pointer;
-  border-radius: 5px;
 }
 
-button:hover {
-  background: #2a6a4e; /* Darker Green */
+form button:hover {
+  background: #555;
 }
 
 footer {
-  background: #3d9970; /* Kikuyu Green */
+  background: #333;
   color: #fff;
   text-align: center;
-  padding: 1rem;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  padding: 10px 0;
 }

@@ -3,59 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn Kikuyu</title>
+    <title>Kikuyu Language Learning</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Learn Kikuyu</h1>
+        <h1>Learn Kikuyu Language & Culture</h1>
         <nav>
             <ul>
                 <li><a href="#lessons">Lessons</a></li>
-                <li><a href="#subscription">Subscription</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <section id="lessons">
-            <h2>Lessons</h2>
-            <div class="lesson">
-                <h3>Basic Vocabulary</h3>
-                <p><strong>English:</strong> Hello</p>
-                <p><strong>Kikuyu:</strong> Wîhîî</p>
-                <p><strong>English:</strong> Thank you</p>
-                <p><strong>Kikuyu:</strong> Wîhîîrî</p>
-                <!-- Add more vocabulary here -->
-            </div>
-        </section>
 
-        <section id="subscription">
-            <h2>Subscription Plans</h2>
-            <div class="pricing">
-                <div class="pricing-plan">
-                    <h3>Basic Plan</h3>
-                    <p>$8 per month</p>
-                    <button onclick="subscribe('basic')">Subscribe</button>
-                </div>
-                <div class="pricing-plan">
-                    <h3>Standard Plan</h3>
-                    <p>$17 per month</p>
-                    <button onclick="subscribe('standard')">Subscribe</button>
-                </div>
-                <div class="pricing-plan">
-                    <h3>Premium Plan</h3>
-                    <p>$28 per month</p>
-                    <button onclick="subscribe('premium')">Subscribe</button>
-                </div>
+    <section id="lessons">
+        <h2>Kikuyu Lessons</h2>
+        <p>Welcome to the Kikuyu language learning section. Here you'll find lessons to help you master the Kikuyu language.</p>
+        <!-- Add lesson content here -->
+    </section>
+
+    <section id="culture">
+        <h2>Kikuyu Culture</h2>
+        <div class="gallery">
+            <h3>Historical Images</h3>
+            <div class="gallery-item">
+                <img src="images/historical1.jpg" alt="Historical Image 1">
+                <p>Caption for historical image 1</p>
             </div>
-        </section>
-    </main>
+            <div class="gallery-item">
+                <img src="images/historical2.jpg" alt="Historical Image 2">
+                <p>Caption for historical image 2</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/historical3.jpg" alt="Historical Image 3">
+                <p>Caption for historical image 3</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/historical4.jpg" alt="Historical Image 4">
+                <p>Caption for historical image 4</p>
+            </div>
+            <h3>Modern Images</h3>
+            <div class="gallery-item">
+                <img src="images/modern1.jpg" alt="Modern Image 1">
+                <p>Caption for modern image 1</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/modern2.jpg" alt="Modern Image 2">
+                <p>Caption for modern image 2</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/modern3.jpg" alt="Modern Image 3">
+                <p>Caption for modern image 3</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/modern4.jpg" alt="Modern Image 4">
+                <p>Caption for modern image 4</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">sammykageni36@gmail.com</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Learn Kikuyu. All rights reserved.</p>
+        <p>&copy; 2024 Kikuyu Language Learning. All rights reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
+    
+    <script src="scripts.js"></script>
 </body>
 </html>
