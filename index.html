@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Kikuyu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Learn Kikuyu</h1>
+        <nav>
+            <ul>
+                <li><a href="#lessons">Lessons</a></li>
+                <li><a href="#subscription">Subscription</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="lessons">
+            <h2>Lessons</h2>
+            <div class="lesson">
+                <h3>Basic Vocabulary</h3>
+                <p><strong>English:</strong> Hello</p>
+                <p><strong>Kikuyu:</strong> Wîhîî</p>
+                <p><strong>English:</strong> Thank you</p>
+                <p><strong>Kikuyu:</strong> Wîhîîrî</p>
+                <!-- Add more vocabulary here -->
+            </div>
+        </section>
+
+        <section id="subscription">
+            <h2>Subscription Plans</h2>
+            <div class="pricing">
+                <div class="pricing-plan">
+                    <h3>Basic Plan</h3>
+                    <p>$8 per month</p>
+                    <button onclick="subscribe('basic')">Subscribe</button>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Standard Plan</h3>
+                    <p>$17 per month</p>
+                    <button onclick="subscribe('standard')">Subscribe</button>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Premium Plan</h3>
+                    <p>$28 per month</p>
+                    <button onclick="subscribe('premium')">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Learn Kikuyu. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
